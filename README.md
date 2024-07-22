@@ -1,6 +1,6 @@
 # opengemini-client-rust
 
-![License](https://img.shields.io/badge/license-Apache2.0-green) ![Language](https://img.shields.io/badge/Language-Rust-blue.svg)
+![License](https://img.shields.io/badge/license-Apache2.0-green) ![Language](https://img.shields.io/badge/Language-Rust-blue.svg) [![version](https://img.shields.io/github/v/tag/opengemini/opengemini-client-rust?label=release&color=blue)](https://github.com/opengemini/opengemini-client-rust/releases)
 
 English | [简体中文](README_CN.md)
 
@@ -12,4 +12,4 @@ English | [简体中文](README_CN.md)
 
 ## About OpenGemini
 
-OpenGemini is an open-source time series database, find more information [here](https://github.com/openGemini/openGemini)
+OpenGemini is a cloud-native distributed time series database, find more information [here](https://github.com/openGemini/openGemini)
