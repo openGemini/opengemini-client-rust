@@ -1,6 +1,6 @@
 # opengemini-client-rust
 
-![License](https://img.shields.io/badge/license-Apache2.0-green) ![Language](https://img.shields.io/badge/Language-Rust-blue.svg) [![version](https://img.shields.io/github/v/tag/opengemini/opengemini-client-rust?label=release&color=blue)](https://github.com/opengemini/opengemini-client-rust/releases)
+![license](https://img.shields.io/badge/开源许可证-Apache2.0-green) ![language](https://img.shields.io/badge/语言-Rust-blue.svg) [![release](https://img.shields.io/github/v/tag/opengemini/opengemini-client-rust?label=发布版本&color=blue)](https://github.com/opengemini/opengemini-client-rust/releases)
 
 [English](README.md) | 简体中文
 
