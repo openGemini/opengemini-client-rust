@@ -1,6 +1,11 @@
 [package]
-name = "opengemini-client-rust"
+name = "opengemini"
 version = "0.1.0"
 edition = "2021"
+description = "Rust client for OpenGemini"
+license = "Apache-2.0"
+repository = "https://github.com/openGemini/opengemini-client-rust"
+homepage = "https://github.com/openGemini/opengemini-client-rust"
 
 [dependencies]
+reqwest = { version = "0.12.7", features = ["json", "__rustls"] }

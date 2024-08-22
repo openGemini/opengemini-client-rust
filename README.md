@@ -4,7 +4,7 @@
 
 English | [简体中文](README_CN.md)
 
-`opengemini-client-rust` is a Rust client for OpenGemini. 
+`opengemini-client-rust` is a Rust client for OpenGemini.
 
 ## Design Doc
 
