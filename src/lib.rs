@@ -1,3 +1,3 @@
 mod opengemini_client;
 
-pub use opengemini_client::OpenGeminiClient;
+pub use opengemini_client::Client;

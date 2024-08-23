@@ -1,8 +1,8 @@
-pub struct OpenGeminiClient {
+pub struct Client {
 }
 
-impl OpenGeminiClient {
+impl Client {
     pub fn new() -> Self {
-        OpenGeminiClient {}
+        Client {}
     }
 }
