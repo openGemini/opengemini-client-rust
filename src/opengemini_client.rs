@@ -12,10 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-pub struct Client {}
+use crate::config::Config;
+
+pub struct Client {
+    config: Config,
+}
 
 impl Client {
-    pub fn new() -> Self {
-        Client {}
+    pub fn new(config: Config) -> Self {
+        Client { config }
     }
 }
