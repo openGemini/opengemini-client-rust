@@ -12,8 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-mod config;
-mod opengemini_client;
-mod url_const;
-
-pub use opengemini_client::Client;
+pub struct Config {}
