@@ -33,7 +33,6 @@ pub struct AuthConfig {
     token: String,
 }
 
-pub struct TlsConfig {}
 
 pub struct Config {
     Address: Vec<Address>,
@@ -41,7 +40,5 @@ pub struct Config {
     timeout: Duration,
     connectionTimeout: Duration,
     gzip_enabled: bool,
-    tls_enabled: bool,
     auth_config: AuthConfig,
-    tls_config: TlsConfig,
 }
