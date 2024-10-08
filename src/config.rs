@@ -12,4 +12,32 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-pub struct Config {}
+use std::time::Duration;
+
+pub struct Address {
+    host: String,
+    port: u8,
+}
+
+pub struct BatchConfig {
+    batchInterval: Duration,
+    batchSize: u8,
+}
+
+type AuthType = u8;
+
+pub struct AuthConfig {
+    authType: AuthType,
+    username: String,
+    password: String,
+    token: String,
+}
+
+pub struct Config {
+    Address: Vec<Address>,
+    batch_config: BatchConfig,
+    timeout: Duration,
+    connect_timeout: Duration,
+    gzip_enabled: bool,
+    auth_config: AuthConfig,
+}

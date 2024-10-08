@@ -11,10 +11,11 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+use thiserror::Error;
 
-mod config;
-mod error;
-mod opengemini_client;
-mod url_const;
-
-pub use opengemini_client::Client;
+// Client Error
+#[derive(Error, Debug)]
+pub enum ClientError {
+    #[error("Connection error")]
+    ConnectionError,
+}
