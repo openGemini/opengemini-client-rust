@@ -14,30 +14,34 @@
 
 use std::time::Duration;
 
+#[derive(Debug, Clone)]
 pub struct Address {
-    host: String,
-    port: u8,
+    pub host: String,
+    pub port: u16,
 }
 
+#[derive(Debug, Clone)]
 pub struct BatchConfig {
-    batchInterval: Duration,
-    batchSize: u8,
+    pub batch_interval: Duration,
+    pub batch_size: u8,
 }
 
-type AuthType = u8;
+pub type AuthType = u8;
 
+#[derive(Debug, Clone)]
 pub struct AuthConfig {
-    authType: AuthType,
-    username: String,
-    password: String,
-    token: String,
+    pub auth_type: AuthType,
+    pub username: String,
+    pub password: String,
+    pub token: String,
 }
 
+#[derive(Debug, Clone)]
 pub struct Config {
-    Address: Vec<Address>,
-    batch_config: BatchConfig,
-    timeout: Duration,
-    connect_timeout: Duration,
-    gzip_enabled: bool,
-    auth_config: AuthConfig,
+    pub address: Vec<Address>,
+    pub batch_config: BatchConfig,
+    pub timeout: Duration,
+    pub connect_timeout: Duration,
+    pub gzip_enabled: bool,
+    pub auth_config: AuthConfig,
 }
