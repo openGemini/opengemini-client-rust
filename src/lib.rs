@@ -13,6 +13,7 @@
 // limitations under the License.
 
 mod config;
+mod error;
 mod opengemini_client;
 mod url_const;
 

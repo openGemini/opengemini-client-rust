@@ -11,37 +11,11 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
+use thiserror::Error;
 
-use std::time::Duration;
-
-pub struct Address {
-    host: String,
-    port: u8,
-}
-
-pub struct BatchConfig {
-    batchInterval: Duration,
-    batchSize: u8,
-}
-
-type AuthType = u8;
-
-pub struct AuthConfig {
-    authType: AuthType,
-    username: String,
-    password: String,
-    token: String,
-}
-
-pub struct TlsConfig {}
-
-pub struct Config {
-    Address: Vec<Address>,
-    batch_config: BatchConfig,
-    timeout: Duration,
-    connectionTimeout: Duration,
-    gzip_enabled: bool,
-    tls_enabled: bool,
-    auth_config: AuthConfig,
-    tls_config: TlsConfig,
+// Client Error
+#[derive(Error, Debug)]
+pub enum ClientError {
+    #[error("Connection error")]
+    ConnectionError,
 }
