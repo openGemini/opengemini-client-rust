@@ -33,12 +33,11 @@ pub struct AuthConfig {
     token: String,
 }
 
-
 pub struct Config {
     Address: Vec<Address>,
     batch_config: BatchConfig,
     timeout: Duration,
-    connectionTimeout: Duration,
+    connect_timeout: Duration,
     gzip_enabled: bool,
     auth_config: AuthConfig,
 }
