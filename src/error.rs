@@ -18,4 +18,6 @@ use thiserror::Error;
 pub enum ClientError {
     #[error("Connection error")]
     ConnectionError,
+    #[error("Value Error: {0}")]
+    ValueError(String),
 }
