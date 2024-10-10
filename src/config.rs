@@ -33,7 +33,7 @@ pub struct AuthConfig {
     pub auth_type: AuthType,
     pub username: String,
     pub password: String,
-    pub token: String,
+    pub token: Option<String>,
 }
 
 #[derive(Debug, Clone)]
