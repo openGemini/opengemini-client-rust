@@ -12,10 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-mod config;
-mod error;
-mod opengemini_client;
-mod url_const;
-mod models;
-
-pub use opengemini_client::Client;
+pub mod colval;
+pub mod feild;
+pub mod record;
