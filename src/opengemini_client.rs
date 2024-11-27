@@ -33,7 +33,13 @@ pub struct Client {
 
 impl Client {
     pub fn new(cfg: &Config) -> Self {
-        let client = HttpClient::new();
+        let mut client_builder = HttpClient::builder();
+        client_builder = client_builder
+            .timeout(cfg.timeout)
+            .connect_timeout(cfg.connect_timeout)
+            .gzip(cfg.gzip_enabled);
+
+        let client = client_builder.build().expect("Failed to build HttpClient");
         let endpoints = build_endpoints(cfg.address.clone());
         Client {
             config: cfg.clone(),
@@ -61,6 +67,14 @@ impl Client {
     }
 
     pub fn query(&self) -> Result<(), ClientError> {
+        todo!();
+    }
+
+    pub fn create_database(&self) -> Result<(), ClientError> {
+        todo!();
+    }
+
+    pub fn drop_database(&self) -> Result<(), ClientError> {
         todo!();
     }
 
