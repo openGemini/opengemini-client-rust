@@ -14,8 +14,8 @@
 
 mod config;
 mod error;
+mod models;
 mod opengemini_client;
 mod url_const;
-mod models;
 
 pub use opengemini_client::Client;
