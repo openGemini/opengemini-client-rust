@@ -15,6 +15,8 @@
 mod config;
 mod error;
 mod opengemini_client;
+// Module for point
+mod point;
 mod url_const;
 
 pub use opengemini_client::Client;
