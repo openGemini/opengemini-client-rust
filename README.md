@@ -1,6 +1,9 @@
 # opengemini-client-rust
 
-![license](https://img.shields.io/badge/license-Apache2.0-green) ![language](https://img.shields.io/badge/language-Rust-blue.svg) [![release](https://img.shields.io/github/v/tag/opengemini/opengemini-client-rust?label=crates.io&color=blue)](https://crates.io/crates/opengemini)
+![license](https://img.shields.io/badge/license-Apache2.0-green)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11010/badge)](https://www.bestpractices.dev/projects/11010)
+![language](https://img.shields.io/badge/language-Rust-blue.svg)
+[![release](https://img.shields.io/github/v/tag/opengemini/opengemini-client-rust?label=crates.io&color=blue)](https://crates.io/crates/opengemini)
 
 English | [简体中文](README_CN.md)
 
