@@ -1,6 +1,7 @@
 # opengemini-client-rust
 
-![license](https://img.shields.io/badge/开源许可证-Apache2.0-green) ![language](https://img.shields.io/badge/语言-Rust-blue.svg) [![release](https://img.shields.io/github/v/tag/opengemini/opengemini-client-rust?label=发布版本&color=blue)](https://github.com/opengemini/opengemini-client-rust/releases)
+![license](https://img.shields.io/badge/开源许可证-Apache2.0-green)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/11010/badge)](https://www.bestpractices.dev/projects/11010)![language](https://img.shields.io/badge/语言-Rust-blue.svg) [![release](https://img.shields.io/github/v/tag/opengemini/opengemini-client-rust?label=发布版本&color=blue)](https://github.com/opengemini/opengemini-client-rust/releases)
 
 [English](README.md) | 简体中文
 
