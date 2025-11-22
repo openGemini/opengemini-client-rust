@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-pub const URL_PING: &'static str = "/ping";
-pub const URL_QUERY: &'static str = "/query";
-pub const URL_STATUS: &'static str = "/status";
-pub const URL_WRITE_OUTPUT: &'static str = "/write";
+pub const URL_PING: &str = "/ping";
+pub const URL_QUERY: &str = "/query";
+pub const URL_STATUS: &str = "/status";
+pub const URL_WRITE_OUTPUT: &str = "/write";

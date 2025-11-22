@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-mod config;
-mod error;
+pub mod config;
+pub mod error;
 mod opengemini_client;
 mod url_const;
 
